@@ -1,0 +1,4 @@
+import qrcode as qr
+
+img= qr.make("www.linkedin.com/in/himanshu-chaudhari-514552296")
+img.save("Himanshu_linkedin.png")
